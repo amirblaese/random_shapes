@@ -25,11 +25,11 @@ The main function "paint" is your main brush. It takes the following arguments p
 
 Parameter | Meaning
 ------------ | -------------
-input | filename as string, e.g. 'flowers.png'
-NUM_RECS | The number of iterations, more iterations = more detail
-A_CONST | The characteristic decay constant of the area of the rectangles per iteration
-N_CONST | The characteristic growth constant for the number of rectangles added per iteration
-ASPECT_RANGE | The range of aspect ratios that can be assumed by the rectangles. The aspect ratio is randomly chosen from 1..Aspect ratio and then again randomly chosen between the value or 1/value (length/width)
+input | Filename as string, e.g. 'flowers.png'.
+NUM_RECS | The number of iterations, more iterations = more detail.
+A_CONST | The characteristic decay constant of the area of the rectangles per iteration.
+N_CONST | The characteristic growth constant for the number of rectangles added per iteration.
+ASPECT_RANGE | The range of aspect ratios that can be assumed by the rectangles. The aspect ratio is randomly chosen from 1..Aspect ratio and then again randomly chosen between the value or 1/value (length/width).
 MODE | 'l' or 'e' which stand for linear or exponential mode. Exponential mode is faster and more realistic but also less artistic and ends up looking like a low resolution version of the image. Try different combinations of constants and modes.
 DEBUG| Optional, when turned on it will plot the area of the boxes and the number of boxes as a function of iteration so you can see if your numbers make sense before running the code.
 

@@ -17,3 +17,8 @@ The program uses a number of iterations as input by the user to **randomly** ove
 There are also two other functions aside from the main "paint" function to help generate frames for making gifs. "gifproducer" increments the number of iterations and saves a picture at the end of each iteration to visualize what happens with increasing iterations (above gif). "gifstatic" on the other hand, will generate the *same* iteration 7 times. Since each frame has somoe degree of randomness associated with it, sequencing the frames will give it a cool live effect (see below).
 
 ![city_static](ezgif.com-optimize(3).gif)
+
+
+## More examples
+
+![boston](bost.png)

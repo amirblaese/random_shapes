@@ -146,6 +146,10 @@ def paint(input,NUM_RECS,A_CONST,N_CONST,ASPECT_RANGE,MODE,DEBUG=False):
 
 
 def gifproducer(input,NUM_RECS,A_CONST,N_CONST,ASPECT_RANGE,MODE,DEBUG=False):
+  """
+  This function is the same as paint but instead increments the iteration and
+  saves a figure at each iteration instead of at the final iteration. 
+  """
   try:
     os.makedirs(input[0:len(input)-4])
   except:
@@ -158,6 +162,10 @@ def gifproducer(input,NUM_RECS,A_CONST,N_CONST,ASPECT_RANGE,MODE,DEBUG=False):
   os.chdir('..')
 
 def gifstatic(input,NUM_RECS,A_CONST,N_CONST,ASPECT_RANGE,MODE,DEBUG=False):
+  """
+  This function runs paint 7 times and saves a figure for each iteration in 
+  a new director. Sequence the frames together for a cool live effect!
+  """
   try:
     os.makedirs(input[0:len(input)-4]+'steady')
   except:

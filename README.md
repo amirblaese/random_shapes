@@ -15,7 +15,7 @@ The program uses a number of iterations as input by the user to **randomly** ove
 <img src="city.gif" alt="drawing" width="400"/>
 
 
-There are also two other functions aside from the main "paint" function to help generate frames for making gifs. "gifproducer" increments the number of iterations and saves a picture at the end of each iteration to visualize what happens with increasing iterations (above gif). "gifstatic" on the other hand, will generate the *same* iteration 7 times. Since each frame has somoe degree of randomness associated with it, sequencing the frames will give it a cool live effect (see below).
+There are also two other functions aside from the main "paint" function to help generate frames for making gifs. "gifproducer" increments the number of iterations and saves a picture at the end of each iteration to visualize what happens with increasing iterations (above gif). "gifstatic" on the other hand, will generate the *same* iteration 7 times. Since each frame has some degree of randomness associated with it, sequencing the frames will give it a cool live effect (see below).
 
 <img src="ezgif.com-optimize(3).gif" alt="drawing" width="400"/>
 
@@ -33,7 +33,7 @@ ASPECT_RANGE | The range of aspect ratios that can be assumed by the rectangles.
 MODE | 'l' or 'e' which stand for linear or exponential mode. Exponential mode is faster and more realistic but also less artistic and ends up looking like a low resolution version of the image. Try different combinations of constants and modes.
 DEBUG| Optional, when turned on it will plot the area of the boxes and the number of boxes as a function of iteration so you can see if your numbers make sense before running the code.
 
-Linear mode, unlike exponential mdoe, also has a quirk that really brings the renders to life - since the size reduction of the linear rectangles can eventually go to 0 there is a necessity to counteract this. The area will then be forced to 5 or 10 (I used 10) will results in little noise like features that add imperfections to the boxes but also give it additional depth. For this reason I found that the following parameters work quite well (for photos with resolution ~700x1000):
+Linear mode, unlike exponential mode, also has a quirk that really brings the renders to life - since the size reduction of the linear rectangles can eventually go to 0 there is a necessity to counteract this. The area will then be forced to 5 or 10 (I used 10) will results in little noise-like features that add imperfections to the boxes but also give it additional depth. For this reason, I found that the following parameters work quite well (for photos with resolution ~700x1000):
 
     paint(29,0.33,0.55,2,'l')
 

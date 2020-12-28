@@ -10,7 +10,7 @@ This script takes a photo as input and returns an abstract version of it:
 
 ## How does it work?
 
-The program uses a number of iterations as input by the user to **randomly** overlay "N" number of rectangles with area "A" (whose range of aspect ratios can be defined) for each iteration. The area and number of rectangles decreases and increases with rates and models entered as desired by the user. Each rectangle is then shaded according to the mean area it covers from the original photo. Here's an example of what happens as you increase the number of iterations in *.gif* format:
+The program uses a number of iterations as input by the user to **randomly** overlay "N" number of rectangles with area "A" (whose range of aspect ratios can be defined) for each iteration. The area and number of rectangles decreases and increases with rates and models entered as desired by the user. Each rectangle is then shaded according to the mean color of the area it covers from the original photo. Here's an example of what happens as you increase the number of iterations in *.gif* format:
 
 <img src="city.gif" alt="drawing" width="400"/>
 

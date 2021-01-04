@@ -42,4 +42,6 @@ Linear mode, unlike exponential mode, also has a quirk that really brings the re
 ## More examples
 
 <img src="bost.png" alt="boston" width="400"/>
+<img src="comparison.png" alt="copmarison" width="400"/>
+
 

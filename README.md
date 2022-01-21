@@ -1,5 +1,5 @@
 # 🎨 random_shapes
-
+Written by Shayan Gheidi.
 Turn your photos into art. 
 
 ## About
